@@ -29,15 +29,15 @@ public class Main {
 
 
 
-        //problemOne();
-        //problemTwo();
-        //problemThree();
-        //problemFour();
-        //problemFive();
-        //problemSix();
-        //problemSeven();
-        //problemEight();
-        //problemNine();
+        problemOne();
+        problemTwo();
+        problemThree();
+        problemFour();
+        problemFive();
+        problemSix();
+        problemSeven();
+        problemEight();
+        problemNine();
         problemTen();
 
     }
@@ -45,13 +45,13 @@ public class Main {
     // Write a program that creates an array of integers with a length of 3.
     // Assign the values 1, 2, and 3 to the indexes.
     // Print out each array element.
-//    public static void problemOne() {
-//        int[] myArr = new int[3];
-//        for (int i = 0; i < myArr.length; i++) {
-//            myArr[i] = i;
-//        }
-//        System.out.println(Arrays.toString(myArr));
-//    }
+    public static void problemOne() {
+        int[] myArr = new int[3];
+        for (int i = 0; i < myArr.length; i++) {
+            myArr[i] = i;
+        }
+        System.out.println(Arrays.toString(myArr));
+    }
 
 
     //Write a program that returns the middle element in an array.
